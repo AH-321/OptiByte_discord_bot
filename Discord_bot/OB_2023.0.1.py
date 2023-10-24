@@ -1,8 +1,11 @@
 import discord
+import python_weather
+import asyncio
+import os
 
 
 intents = discord.Intents.default()
-intents.presences = True  # Enable presence intent
+intents.presences = True
 intents.members = True
 intents.message_content = True
 client = discord.Client(intents=intents)
@@ -27,5 +30,14 @@ async def on_message(message):
 
     elif message.content.startswith('$kill'):
         exit()
+
+    elif messgae.content.startswith('$getweather')
+        get_weather(message)
+
+async def get_weather(messgae):
+    async with python_weather.Client(unit=python_weather.METRIC) as client:
+        weather = await client.get('Salmon Arm')
+    
+        
 
 client.run('MTE2NjE3ODU1ODg5MzM1OTIyNQ.GztKno.f2w7S7WdEGWCDTdermY2_CmFcRvmTd8ikcHO1c')
