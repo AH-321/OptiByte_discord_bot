@@ -1,3 +1,3 @@
 # OptiByte_discord_bot
 
-This is a prototype server automation bot specializing in handling roles.
+This is a prototype server automation bot specializing in handling roles. It is also highly customizable to your server needs.
