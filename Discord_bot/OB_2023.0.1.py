@@ -40,4 +40,4 @@ async def get_weather(messgae):
     
         
 
-client.run('MTE2NjE3ODU1ODg5MzM1OTIyNQ.GztKno.f2w7S7WdEGWCDTdermY2_CmFcRvmTd8ikcHO1c')
+client.run('TOKEN')
