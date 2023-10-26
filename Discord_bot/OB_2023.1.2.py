@@ -55,4 +55,4 @@ async def get_forecast(message):
     await client.close()
 
 
-client.run('MTE2NjE3ODU1ODg5MzM1OTIyNQ.GE8gSF.MH1RNPNRBDTgED2xPCeNj8c8U1Ird93g-mTntc')
+client.run('TOKEN')
