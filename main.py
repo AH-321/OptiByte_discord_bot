@@ -1,5 +1,5 @@
 import os
-import Discord_bot.logo as logo 
+import src.logo as logo 
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -13,9 +13,9 @@ def main():
     print("Please make selection:\n")
 
 
-    # read for files inside Discord_bot and print them
+    # read for files inside source dir and print them
     i = 1
-    for file in os.listdir('Discord_bot'):
+    for file in os.listdir('src'):
         if file.endswith('.py'):
             print(str(i) + ". Run " + file)
             i = i + 1
@@ -31,6 +31,6 @@ def main():
     else:
 
         clear()
-        os.system('python3 Discord_bot/' + os.listdir('Discord_bot')[int(selection)])
+        os.system('python3 src/' + os.listdir('src')[int(selection)])
 
 main()
