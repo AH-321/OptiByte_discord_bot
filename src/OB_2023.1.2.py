@@ -3,8 +3,6 @@ import python_weather
 import asyncio
 import os
 
-print("IM WIERDDDD")
-
 intents = discord.Intents.default()
 intents.presences = True
 intents.members = True
